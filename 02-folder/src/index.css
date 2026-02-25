@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.card{
+  background-color: pink;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
